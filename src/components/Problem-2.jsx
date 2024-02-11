@@ -14,7 +14,7 @@ const Problem2 = () => {
     };
 
     const handleUSContactsClick = () => {
-        console.log('Switching to all contacts');
+        console.log('Switching to us contacts');
         setShowAllModal(false);
         setShowUSModal(true);
         window.history.pushState({}, '', '/problem-2/us-contacts');
