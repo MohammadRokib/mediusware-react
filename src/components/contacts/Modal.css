@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.all-contact {
+    background-color: #46139f;
+}
+
+.us-contact {
+    background-color: #ff7f50;
+    margin: 2px 15px;
+}
+
+.close-contact {
+    background-color: white;
+    border: 1px solid #46139f;
+}
